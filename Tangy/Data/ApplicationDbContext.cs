@@ -15,6 +15,10 @@ namespace Tangy.Data
         {
         }
 
+        public DbSet<Category> Category { get; set; }
+
+        public DbSet<SubCategory> SubCategories { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
