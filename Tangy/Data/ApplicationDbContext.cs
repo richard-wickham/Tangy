@@ -21,6 +21,8 @@ namespace Tangy.Data
 
         public DbSet<MenuItem> MenuItem { get; set; }
 
+        public DbSet<Coupons> Coupons { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
