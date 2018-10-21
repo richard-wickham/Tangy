@@ -23,6 +23,8 @@ namespace Tangy.Data
 
         public DbSet<Coupons> Coupons { get; set; }
 
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
